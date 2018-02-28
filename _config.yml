@@ -1,2 +1,3 @@
 name: May LKM
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
