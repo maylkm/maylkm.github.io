@@ -32,35 +32,35 @@ ul{
 /* Showcase */
 #showcase {
   min-height: 360px;
-  background:url('../img/maylkm home header.png') no-repeat center;
+  background:url('../images/maylkm home header.png') no-repeat center;
   background-size: cover;
   color: #5f5f5f;
 }
 
 #showcase-about {
   min-height: 360px;
-  background:url('../img/maylkm about header.png') no-repeat center;
+  background:url('../images/maylkm about header.png') no-repeat center;
   background-size: cover;
   color: #5f5f5f;
 }
 
 #showcase-services {
   min-height: 360px;
-  background:url('../img/maylkm services header.png') no-repeat center;
+  background:url('../images/maylkm services header.png') no-repeat center;
   background-size: cover;
   color: #5f5f5f;
 }
 
 #showcase-blog {
   min-height: 360px;
-  background:url('../img/maylkm blog header.png') no-repeat center;
+  background:url('../images/maylkm blog header.png') no-repeat center;
   background-size: cover;
   color: #5f5f5f;
 }
 
 #showcase-contact {
   min-height: 360px;
-  background:url('../img/maylkm contact header.png') no-repeat center;
+  background:url('../images/maylkm contact header.png') no-repeat center;
   background-size: cover;
   color: #5f5f5f;
 }
@@ -116,7 +116,7 @@ footer{
 
    #showcase {
     background-size: contain;
-    background:url('../img/maylkm header responsive.png') no-repeat center;
+    background:url('../images/maylkm header responsive.png') no-repeat center;
   }
   
 }
