@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Blogging about things that are not covered well on the interwebs, from English content on Korean SEO & SEM to Korean content on non-Korean influencers. Also covering daily thoughts.">
+    <meta name="author" content="May Lee">
+    <title>Blog | maylkm in HK</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115158813-1"></script> 
+    <script> 
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-115158813-1');
+    </script>
+  </head>
+  <body>
+    <section id="showcase-blog">     
+    </section>
+    <header>
+      <div class="container">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li class="current"><a href="./blog/index.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="main">
+      <div class="container">
+        <article>
+          <h1 class="page-title">
+          Blog          
+          </h1>
+          <p>
+            Development in Progress
+          </p>
+          
+      </div> 
+    </section>
+
+    <footer>
+      <p>maylkm, Copyright &copy; 2018</p>
+    </footer>
+
+  </body>
+</html>
