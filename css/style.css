@@ -70,29 +70,85 @@ header{
   border-bottom: #a8a8a8 1px solid;
 }
 
-header nav{
-  float: center;
-  margin: 10px 0px 10px 0px;
+header #branding {
+  float: left
+}
+header #branding h1{
+  margin: 0;
+}
+
+nav {
+ float: right;
+ overflow: hidden;
+ background-color: #ffffff;
+}
+
+nav li{
+  float: left;
+  display: inline;
+  padding: 0 10px 0 10px;
 }
 
 nav a{
+  float: right;
+  display: block;
+  text-align: center;
   color: #5f5f5f;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 16px;
-}
-nav li{
-  float: center;
-  display: inline;
   padding: 10px 20px 10px 20px;
 }
 
-nav .highlight, nav .current a{
+nav .current {
   color: #fc7900;
   font-weight: bold;
 }
-nav a:hover{
+
+nav a:hover, .dropdown:hover .dropbtn {
   color: #fc7900;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 3px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 
