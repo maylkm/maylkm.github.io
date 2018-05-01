@@ -7,7 +7,7 @@
 		<meta name="author" content="May Lee">
 		<title>Freelance Digital Marketer & Avid Learner | maylkm</title>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/style2.css">
         <!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115158813-1"></script> 
 		<script> 
@@ -25,10 +25,10 @@
         <div id="branding">
           <h1><i class="fa fa-at"></i> maylkm</h1>
         </div>
-        <nav>
-          <ul>
-            <li><a href="/" class="current">Home</a></li>
-            <li><a href="/about">About</a></li>
+        <div class="topnav" id="myTopnav">
+          <nav>
+            <a href="/" class="current">Home</a>
+            <a href="/about">About</a>
             <div class="dropdown">
               <button class="dropbtn">
                 <a href="/services">Services</a>
@@ -39,10 +39,11 @@
                 <a href="/services/naver-sem">Naver SEM</a>                     
               </div>
             </div>
-            <li><a href="/blog">Blog</a></li>
-            <li><a href="/contact">Contact</a></li>
-          </ul>
-        </nav>
+            <a href="/blog">Blog</a>
+            <a href="/contact">Contact</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+      </nav>
       </div>
 		</header>
     <section>
@@ -56,5 +57,16 @@
     <footer>
       <p>maylkm, Copyright &copy; 2018</p>
     </footer>
+    <script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
   </body>
 </html>
