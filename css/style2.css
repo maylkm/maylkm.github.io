@@ -1,3 +1,8 @@
+@font-face {
+    font-family: glacialindifference;
+    src: url(.../fonts/GlacialIndifference-Bold.otf);
+}
+
 body{
   font: 15px/1.5 Arial, Helvetica, sans-serif;
   color: #5f5f5f;
@@ -75,6 +80,8 @@ header #branding {
 }
 header #branding h1{
   margin: 0;
+  font-family: glacialindifference;
+  font-size: 20px;
 }
 
  .topnav {
