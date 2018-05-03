@@ -1,0 +1,14 @@
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 0;
+  background-color: #ffffff;
+  border-radius: 0.3rem;
+  height: 380px;
+  background-image: url('../img/maylkm home header responsive.png');
+  background-size: cover;
+  background-position: center;
+}
+
+body {
+  padding-top: 0px;
+}
